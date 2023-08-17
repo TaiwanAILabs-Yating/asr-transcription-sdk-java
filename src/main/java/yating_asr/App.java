@@ -2,6 +2,9 @@ package yating_asr;
 
 import java.util.List;
 
+import yating_asr.asr.Sentence;
+import yating_asr.constants.AsrModel;
+
 public class App {
     public static void main(String[] args) {
         String asrApiUrl = "ASR_ENDPOINT";

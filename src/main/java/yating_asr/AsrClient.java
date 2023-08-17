@@ -10,6 +10,10 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
+import yating_asr.asr.Sentence;
+import yating_asr.constants.AsrModel;
+import yating_asr.constants.TaskStatus;
+
 public class AsrClient {
     static String asrApiUrl;
     static String asrApiKey;
